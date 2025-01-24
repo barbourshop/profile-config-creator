@@ -6,7 +6,7 @@ const jsonData = {
   personal: {
     name: "Your Name",
     title: "Your Professional Title",
-    tagline: "Systems thinker, team builder, and lifelong learner",
+    tagline: "Insert your memorable tagline",
     bio: "A brief professional bio highlighting your key strengths and approach",
     contact: {
       email: "your.email@example.com",
