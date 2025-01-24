@@ -1,0 +1,18 @@
+{
+  "name": "json-generator",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to generate JSON files from user input.",
+  "main": "generate-json.js",
+  "scripts": {
+    "start": "node generate-json.js",
+    "dev": "nodemon generate-json.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
