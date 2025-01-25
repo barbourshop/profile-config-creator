@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Input for JSON</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PERSON_NAME}} - Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1>Enter Your Information</h1>
-    <form id="userForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" required>
-      
-      <label for="title">Title:</label>
-      <input type="text" id="title" required>
-      
-      <label for="tagline">Tagline:</label>
-      <input type="text" id="tagline" required>
-      
-      <label for="bio">Bio:</label>
-      <textarea id="bio" required></textarea>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" required>
-      
-      <label for="linkedin">LinkedIn Profile:</label>
-      <input type="url" id="linkedin" required>
-      
-      <label for="github">GitHub Profile:</label>
-      <input type="url" id="github" required>
-      
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" required>
-      
-      <button type="submit">Generate JSON</button>
-    </form>
-    <p id="status"></p>
-  </div>
-  <script src="script.js"></script>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="nav-flex-container">
+                <a href="#" class="nav-brand">{{PERSON_NAME}}</a>
+                <div class="nav-links-container">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1 class="hero-title">{{PERSON_NAME}}</h1>
+            <p class="hero-subtitle">{{PERSON_TAGLINE}}</p>
+            <p class="hero-text">{{PERSON_BIO}}</p>
+            <p class="hero-quote">{{PERSON_QUOTE}}</p>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <!-- PROJECTS_PLACEHOLDER -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>Email: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></p>
+            <p>LinkedIn: <a href="{{CONTACT_LINKEDIN}}" target="_blank">{{CONTACT_LINKEDIN}}</a></p>
+            <p>GitHub: <a href="{{CONTACT_GITHUB}}" target="_blank">{{CONTACT_GITHUB}}</a></p>
+            <p>Phone: {{CONTACT_PHONE}}</p>
+        </div>
+    </div>
 </body>
 </html>
