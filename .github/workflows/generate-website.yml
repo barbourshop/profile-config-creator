@@ -27,5 +27,5 @@ jobs:
       - name: Upload JSON Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: generated-config
-          path: output/config.json
+          name: generated-website
+          path: dist/*
