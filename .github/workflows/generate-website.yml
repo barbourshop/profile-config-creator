@@ -22,7 +22,7 @@ jobs:
 
       - name: Build and Run JSON Generator
         run: |
-          node generate-json.js
+          node generate-website.js
 
       - name: Upload JSON Artifact
         uses: actions/upload-artifact@v3
