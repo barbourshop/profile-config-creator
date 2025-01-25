@@ -1,0 +1,96 @@
+{
+    "personal": {
+      "name": "Manolo Malloleche",
+      "title": "Software Engineering Manager",
+      "tagline": "Building high-performing teams and scalable software solutions",
+      "bio": "Alex is a results-driven software engineering manager with over a decade of experience leading cross-functional teams and delivering enterprise-grade applications. Passionate about mentoring engineers and fostering collaborative environments to drive innovation and impact.",
+      "quote": "Leadership is not about being in charge. It’s about taking care of those in your charge.",
+      "contact": {
+        "email": "Manolo.Malloleche@example.com",
+        "linkedin": "https://www.linkedin.com/in/Manolo-Malloleche",
+        "github": "https://github.com/Manolo-Malloleche",
+        "phone": "+1234567890"
+      },
+      "profileImage": "images/alex-profile.jpg"
+    },
+    "projects": [
+      {
+        "title": "Real-Time Analytics Platform",
+        "description": "Developed a scalable real-time analytics platform for processing millions of events per second.",
+        "image": "images/analytics.jpg",
+        "tags": ["Big Data", "Kafka", "Java", "AWS"],
+        "link": "project-analytics.html"
+      },
+      {
+        "title": "E-Commerce Platform Modernization",
+        "description": "Led a team to modernize a legacy e-commerce platform, reducing load times by 50%.",
+        "image": "images/ecommerce.jpg",
+        "tags": ["Microservices", "React", "Node.js", "Azure"],
+        "link": "project-ecommerce.html"
+      },
+      {
+        "title": "DevOps Transformation",
+        "description": "Drove the adoption of DevOps practices, resulting in 3x faster deployment cycles.",
+        "image": "images/devops.jpg",
+        "tags": ["DevOps", "CI/CD", "Docker", "Kubernetes"],
+        "link": "project-devops.html"
+      }
+    ],
+    "skills": {
+      "Programming Languages": [
+        { "name": "Java", "rating": 5 },
+        { "name": "Python", "rating": 4 },
+        { "name": "JavaScript", "rating": 4 }
+      ],
+      "Cloud & Infrastructure": [
+        { "name": "AWS", "rating": 5 },
+        { "name": "Kubernetes", "rating": 4 },
+        { "name": "Terraform", "rating": 4 }
+      ],
+      "Leadership & Management": [
+        { "name": "Team Leadership", "rating": 5 },
+        { "name": "Agile Methodologies", "rating": 5 },
+        { "name": "Mentorship", "rating": 4 }
+      ]
+    },
+    "experience": [
+      {
+        "title": "Software Engineering Manager",
+        "company": "Tech Innovators Inc.",
+        "period": "Jan 2019 - Present",
+        "responsibilities": [
+          "Led a 15-member engineering team to deliver multiple high-impact projects.",
+          "Implemented Agile practices that improved team velocity by 30%.",
+          "Fostered a culture of continuous learning through regular knowledge-sharing sessions."
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "NextGen Solutions",
+        "period": "Jun 2015 - Dec 2018",
+        "responsibilities": [
+          "Designed and implemented scalable microservices architectures.",
+          "Collaborated with cross-functional teams to deliver end-to-end product features.",
+          "Mentored junior engineers, fostering a culture of technical excellence."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Bright Future Tech",
+        "period": "Jan 2012 - May 2015",
+        "responsibilities": [
+          "Developed RESTful APIs for enterprise applications.",
+          "Contributed to the migration of on-premise systems to cloud-based infrastructure.",
+          "Maintained high-quality code standards through code reviews and testing."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "University of Technology",
+        "period": "2008 - 2012"
+      }
+    ]
+  }
+  
